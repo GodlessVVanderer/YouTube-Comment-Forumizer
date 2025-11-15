@@ -1,0 +1,16 @@
+{
+  "name": "youtube-comment-forumizer",
+  "version": "1.0.0",
+  "description": "AI-powered spam detection for YouTube comments",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "start:backend": "npm start -w backend",
+    "dev:backend": "npm run dev -w backend"
+  }
+}
